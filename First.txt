@@ -26,4 +26,6 @@ git config --global user.email 'scoop7@ukr.net'
 git config --global color.ui 'auto'
 
 
+ffewsag
+
 
