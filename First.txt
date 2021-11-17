@@ -1,0 +1,29 @@
+strArr = ['p', 'i', 'n', 'e', 'b', 'e', 'a', 'c', 'h']
+
+
+
+intArr = [7, 2, 9, 3, 55, 89, 45, 44, 367, 18, 23, 110]
+
+
+
+a = [56, 88, 70, 66, 44, 52, 60]
+ 
+b = a.group_by.with_index do |el, i|
+  i.odd? ? :odd_index : :even_index
+end
+ 
+puts "Дан массив #{a}."
+puts "Элементы с нечётными индексами: #{b[:odd_index].join(', ')}."
+puts "Элементы с чётными индексами: #{b[:even_index].join(', ')}."
+
+svfszdvgsdvg
+
+
+git config --global user.name 'OlegChornyi'
+
+git config --global user.email 'scoop7@ukr.net'
+
+git config --global color.ui 'auto'
+
+
+
